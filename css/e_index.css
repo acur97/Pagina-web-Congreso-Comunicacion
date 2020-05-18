@@ -1,0 +1,394 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html{
+	margin-top: 50px;
+}
+
+nav{
+	position: fixed;
+	top: 0px;
+	background: rgba(144,202,249, 0.925);
+	box-shadow: 0px -3px 15px rgba(0,0,0,0.5);
+	/*width: 1440px;*/
+	width: 100%;
+	height: 50px;
+	z-index: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+#LogoNav{
+	padding: 5px;
+	width: 170px;
+	height: 40px;
+	float: left;
+}
+
+#botones li{
+	display: block;
+	list-style: none;
+	float: right;
+	width: 110px;
+	height: 20px;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+#botones li a{
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+}
+
+#botones li:hover{
+	background: rgba(255,255,255,0.2);
+}
+
+#botones li a:hover{
+	color: black;
+}
+
+#botones li a:visited{
+	color: rgb(235,235,235);
+}
+
+#busqueda_modal{
+	display: none;
+}
+
+#busqueda_modal:target{
+	display: block;
+	position: fixed;
+	top: 58.1%;
+	left: 1.3%;
+	width: 240px;
+	height: 40px;
+	background: #263238;
+	z-index: 1;
+	border-radius: 5em;
+	filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.4));
+}
+
+table{
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+#salir{
+	margin-top: -20px;
+	margin-right: 15px;
+	float: right;
+	color: white;
+	text-decoration: none;
+}
+
+#salir a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.menud{
+	position: fixed;
+	top: 50%;
+	left: 1%;
+}
+
+.menud li{
+	width: 50px;
+	text-align: center;
+}
+
+.menud ul{
+	display: flex;
+	list-style: none;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menud a{
+	display: block;
+
+}
+
+.menud ul li ul{
+	display: none;
+}
+
+.menud ul li a:hover + ul, .menud ul li ul:hover{
+	display: block;
+}
+
+.menud a:hover{
+	/*background: mediumslateblue;*/
+}
+
+#mas{
+	width: 50px;
+	height: 50px;
+	filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.6));
+}
+
+img.redesBlock{
+	width: 40px;
+	height: 40px;
+	filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.4));
+}
+
+#subir{
+	position: absolute;
+	right: 1%;
+	top: 1073px;
+	width: 50px;
+	height: 50px;
+	filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.6));
+}
+
+#subir img{
+	width: 50px;
+	height: 50px;
+}
+
+#arriba{
+	position: absolute;
+	top: 0px;
+}
+
+#contenedor{
+	width: 100%;
+	height: 2120px;
+	background: black;
+	margin: 0px auto;
+	/*filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.5));*/
+}
+
+header{
+	background: #90caf9;
+	/*width: 1280px;*/
+	width: 100%;
+	height: 450px;
+}
+
+#TituloHeader{
+	width: 100%;
+	height: 130px;
+	padding-top: 120px;
+	float: left;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+}
+
+#MiniTituloHeader{
+	width: 100%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+#whpreguntas{
+	/*background: rgb(225,225,225);*/
+	background-image: url(../img/teatro.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 520px;
+}
+
+.TituloCajas{
+	width: 974px;
+	height: 70px;
+	padding: 25px 0px 5px 50px;
+	font-size: 40px;
+	color: white;
+	margin: 0px auto;
+	font-weight: bold;
+	/*filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.6));*/
+}
+
+#cajas3Contenedor{
+	width: 1024px;
+	height: 420px;
+	margin: 0px auto;
+}
+
+.cajas3{
+	width: 300px;
+	height: 400px;
+	margin: 0px 20px;
+	float: left;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.TituloCajas3{
+	width: 300px;
+	height: 40px;
+	background: rgba(200,200,200, 0.75);
+	text-align: center;
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.contenidoCajas3{
+	width: 280px;
+	height: 330px;
+	background: rgba(200,200,200, 0.75);
+	text-align: center;
+	padding: 10px;
+	font-size: 19px;
+}
+
+#NotasImportantes{
+	width: 100%;
+	height: 800px;
+	background: #90caf9;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2) inset;
+}
+
+#contenedorNotas{
+	width: 1024px;
+	height: 800px;
+	margin: 0px auto;
+}
+
+#contenedorAcordeon_machete{
+	width: 551px;
+	height: 285px;
+	margin: 0px 30px;
+	padding: 358px 25px 0px 25px;
+	float: left;
+	background: white;
+	color: grey;
+	font-size: 18px;
+}
+
+#contenedorAcordeon{
+	width: 600px;
+	height: 643px;
+	/*position: absolute;
+	top: 1120px;
+	left: */
+	position: relative;
+	top: -610px;
+	left: -25px;
+}
+
+#principal{
+	width: 600px;
+	min-height: 100px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+div.caja_acordeon{
+	width: 600px;
+	min-height: 50px;
+}
+
+div.titulo{
+	width: 600px;
+	height: 75px;
+	background: #90afff;
+	overflow: hidden;
+	border: 1px solid white;
+}
+
+p.titulo{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+div.info{
+	width: 600px;
+	height: 0px;
+	background: white;
+	overflow: hidden;
+	-webkit-transition: height 0.75s;
+}
+
+p.info{
+	color: grey;
+	margin: 50px 25px;
+	font-size: 18px;
+}
+
+div.caja_acordeon:hover div.info{
+	height: 335px;
+}
+
+#logo_conf{
+	width: 334px;
+	height: 700px;
+	float: left;
+}
+
+#img_conf{
+	width: 300px;
+	height: 300px;
+}
+
+#horariosfechas{
+	width: 100%;
+	height: 100px;
+	padding-top: 50px;
+	background-image: url(../img/test1.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 40px;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2) inset;
+}
+
+#horariosfechas a{
+	color: white;
+	filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+
+#horariosfechas a:hover{
+	color: #90caf9;
+}
+
+aside{
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/banner1.jpg);
+	background-size: 100%;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2) inset;
+}
+
+footer{
+	width: 100%;
+	height: 75px;
+	background: rgb(50,50,50);
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2) inset;
+	font-family: 'Roboto', sans-serif;
+}
+
+.futer{
+	width: 50%;
+	height: 75px;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+}
+
+.futer a:visited{
+	color: grey;
+}
+
+.futer a{
+	color: white;
+}
+
+.futer a:hover{
+	color: #90afff;
+}
